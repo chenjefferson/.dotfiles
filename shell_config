@@ -1,0 +1,19 @@
+# shell_config
+# Shell configurations. Should be manually sourced, as each distro seems to
+# have its own preset bashrc.
+#
+# github.com/chenjefferson
+
+# exports and aliases
+export PATH=~/bin:$PATH
+
+# easy access to Emacs
+alias ec="emacsclient -c -a ''"
+
+# common dir aliases
+alias l="cd ~/Table/Library"
+
+# allow C to be run from stdin
+go_libs="-lm"
+go_flags="-g -Wall -include allheads.h -O3"
+alias go_c="c99 -xc '-' $go_libs $go_flags"
