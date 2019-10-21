@@ -10,6 +10,7 @@
     bh = log --oneline --abbrev-commit --all --graph --decorate --color
     type = cat-file -t
     dump = cat-file -p
+    files = ls-tree -r master --name-only
 [user]
     name = Jefferson William Chen
     email = jeffwilliamchen@ieee.org
