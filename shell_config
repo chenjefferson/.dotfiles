@@ -10,6 +10,9 @@ export PATH=~/bin:$PATH
 # easy access to Emacs
 alias ec="emacsclient -c -a ''"
 
+# run evince in a (weak) sandbox
+alias evince="firejail --machine-id --net=none --trace evince"
+
 # common dir aliases
 alias l="cd ~/Table/Library"
 
