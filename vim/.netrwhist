@@ -1,0 +1,6 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =4
+let g:netrw_dirhist_1='/home/jeffe/Table/CSE 124/Projects/project-1-cpp-water/src'
+let g:netrw_dirhist_2='/home/jeffe/Table/CSE 124/Assignments/hw2/src'
+let g:netrw_dirhist_3='/home/jeffe/Table/CSE 124/Assignments/hw2/xmlrpc-example'
+let g:netrw_dirhist_4='/home/jeffe/Table/CSE 124/Assignments/p2/project-2-java-jeff/src'
