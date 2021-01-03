@@ -1,0 +1,17 @@
+{
+    "workbench.colorTheme": "Monokai Dark Soda",
+    "workbench.iconTheme": "Monokai Pro (Filter Ristretto) Icons",
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "editor.fontFamily": "'IBM Plex Mono','Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
+    "python.languageServer": "Microsoft",
+    "editor.formatOnSave": true,
+    "prettier.jsxSingleQuote": true,
+    "prettier.singleQuote": true,
+    "emmet.includeLanguages": {
+        "javascript": "javascriptreact"
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    }
+}

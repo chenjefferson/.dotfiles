@@ -1,5 +1,5 @@
 [core]
-    autocrlf = input
+	autocrlf = false
     safecrlf = true
     editor = vim
 [alias]
